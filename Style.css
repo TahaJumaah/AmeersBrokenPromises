@@ -1,4 +1,6 @@
 body {
+font-family: 'Roboto', 'sans-serif';
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -47,6 +49,7 @@ background-color: #eff0f3;
     /* justify-content: flex-start; */
     /* align-items: center; */
     height: 100vh;
+    border-bottom: 5vh solid rgba(255, 0, 0, 0);
 }
 
 .website-png{
@@ -68,6 +71,7 @@ background-color: #eff0f3;
 }
 .about-website{
     /* border: 3px solid red; */
+    flex: 1 1 0;
     color: #f9faf8;
     font-size: 48px;
     font-weight:bolder;
@@ -104,4 +108,86 @@ background-color: #eff0f3;
 .button-learnmore a{
     text-decoration: none;
     color: #E5E7EB;
+}
+
+#learnmore{
+    justify-content: center;
+    align-self: center;
+    font-size: 40px;
+}
+/* ----------------------------------------------------- */
+.two p{
+    margin: 5px;
+    padding: 5px;
+    color: black;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    background-color: #cccfd4;
+}
+.thingabouthim{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstthing{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstthing-pic {
+    flex: 3 1 0;
+}
+
+.firstthing-pic img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+
+}
+
+.firstthing-desc{
+    flex: 1 1 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.secondthing-pic{
+    flex: 3 1 0;
+}
+
+.secondthing-pic img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+.secondthing-desc{
+    flex: 1 1 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.thirdthing{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+.thirdthing-pic{
+    flex: 3 1 0;
+}
+
+.thirdthing-pic img {
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.thirdthing-desc{
+    flex: 1 1 0;
+    font-size: 22px;
+    text-align: center;
 }
