@@ -1,6 +1,6 @@
+
 body {
 font-family: 'Roboto', 'sans-serif';
-
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -232,10 +232,7 @@ background-color: #eff0f3;
 }
 
 .toameer{
-    margin: 5vhpx;
+    /* margin: 5vhpx; */
     text-align: center;
     font-size: 40px;
 }
-
-
-

@@ -1,0 +1,63 @@
+/* body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1F2937 ;
+} */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-right{
+    display: none;
+}
+.header-left{
+    flex: 10 1 auto;
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+}
+
+
+/* ----------------------------------------- End of Header Styling */
+
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    flex-wrap: nowrap;
+    border: 3px solid blue;
+}
+
+.website-image{
+    order: -1 ;
+    flex: 10 1 auto;
+    width: 100%;
+}
+
+.about-website{
+    display: block;
+    order: 1;
+    border: 3px solid red;
+    align-self: center;
+    height: 100%;
+    width: 70vw;
+
+}
+
+
+.about-website-more{
+    border: 3px solid green;
+    order: 2;
+    align-self: center;
+    width: 70vw;
+    height: 100%;
+    flex: 10 1 auto;
+
+}
+
+.button-space{
+    order: 3;
+}
