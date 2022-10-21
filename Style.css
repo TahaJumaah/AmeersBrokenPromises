@@ -227,8 +227,10 @@ background-color: #eff0f3;
 
 
 .final{
-    height: 50vh;
-    background-color:rgb(204,207,212) ;
+    font-family: 'Amiri Quran', serif;
+    height: auto;
+    background-color:#1F2937) ;
+    color: #E5E7EB;
 }
 
 .toameer{
@@ -236,3 +238,6 @@ background-color: #eff0f3;
     text-align: center;
     font-size: 40px;
 }
+
+/* ------------------------- END OF MAIN STYLING */
+
