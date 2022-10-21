@@ -210,9 +210,7 @@ background-color: #eff0f3;
     overflow-x: auto;
     background-color: rgb(204,207,212);
 }
-.brokenpromises::-webkit-scrollbar{
-    display: none;
-}
+
 
 .promise{
     font-size: 25px;
