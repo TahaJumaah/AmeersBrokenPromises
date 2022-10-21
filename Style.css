@@ -122,6 +122,7 @@ background-color: #eff0f3;
     color: black;
 }
 .two{
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: row;
     height: 70vh;
@@ -191,3 +192,52 @@ background-color: #eff0f3;
     font-size: 22px;
     text-align: center;
 }
+
+
+/* ------------------------------------------------ */
+#brokenpromises{
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: 0px; */
+}
+
+
+.brokenpromises{
+    display: flex;
+    min-width: 100%;
+    min-height: 200px;
+    overflow-x: auto;
+    background-color: rgb(204,207,212);
+}
+.brokenpromises::-webkit-scrollbar{
+    display: none;
+}
+
+.promise{
+    font-size: 25px;
+    flex: 0 0 250px;
+    margin: 5px;
+    padding-left: 5px;
+    border-radius: 8%;
+    background-color: rgba(255, 167, 167, 0.432);
+
+}
+
+
+/* ----------------------------------- */
+
+
+.final{
+    height: 50vh;
+    background-color:rgb(204,207,212) ;
+}
+
+.toameer{
+    margin: 5vhpx;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
