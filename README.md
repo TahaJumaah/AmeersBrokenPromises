@@ -1,2 +1,2 @@
-# LandingPage
-This is a landing page, created for training purppses.
+# Broken Promises
+This is a reminder, that even though friends break promises, we love them nonetheless.
